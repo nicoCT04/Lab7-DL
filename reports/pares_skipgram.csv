@@ -1,0 +1,5 @@
+corpus,tokens,pares ventana fija W=5,pares ventana dinámica
+sin submuestreo,24698313,239625260,144762556
+con submuestreo t=0.001,19218822,184841242,111884233
+con submuestreo t=0.0001,14836903,141045800,85573573
+con submuestreo t=1e-05,8704065,79868218,48870961

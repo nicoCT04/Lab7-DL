@@ -1,0 +1,23 @@
+# Datos y cachés (se descargan/generan automáticamente, no se versionan)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Pesos / checkpoints
+*.pth
+*.pt
+
+# Sistema
+.DS_Store
+
+# Informe editable (se sube solo el PDF) y archivos temporales de Word
+*.docx
+~$*

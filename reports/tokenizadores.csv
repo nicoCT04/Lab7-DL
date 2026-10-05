@@ -1,0 +1,13 @@
+oración,propio,nltk,iguales
+I don't think it's ready yet.,i | do | n't | think | it | 's | ready | yet,i | do | n't | think | it | 's | ready | yet | .,False
+"She can't attend the meeting, but they'll call later.",she | ca | n't | attend | the | meeting | but | they | 'll | call | later,"she | ca | n't | attend | the | meeting | , | but | they | 'll | call | later | .",False
+The U.S. economy grew 3.5% in 2019.,the | u | s | economy | grew | 3.5 | in | 2019,the | u.s. | economy | grew | 3.5 | % | in | 2019 | .,False
+Dr. Smith arrived at 5 p.m. on Jan. 3rd.,dr | smith | arrived | at | 5 | p | m | on | jan | 3 | rd,dr. | smith | arrived | at | 5 | p.m. | on | jan. | 3rd | .,False
+"It's a state-of-the-art, well-known system.",it | 's | a | state | of | the | art | well | known | system,"it | 's | a | state-of-the-art | , | well-known | system | .",False
+"The company's revenue was $1,000,000 last year.","the | company | 's | revenue | was | 1,000,000 | last | year","the | company | 's | revenue | was | $ | 1,000,000 | last | year | .",False
+"""Hello!"" he said -- then left...",hello | he | said | then | left,`` | hello | ! | '' | he | said | -- | then | left | ...,False
+We'd've gone if you'd asked.,we | 'd | 've | gone | if | you | 'd | asked,we'd | 've | gone | if | you | 'd | asked | .,False
+E-mail me at john.doe@example.com or visit www.uvg.edu.gt,e | mail | me | at | john | doe | example | com | or | visit | www | uvg | edu | gt,e-mail | me | at | john.doe | @ | example.com | or | visit | www.uvg.edu.gt,False
+The Beatles' songs (1962-1970) remain popular.,the | beatles | songs | 1962 | 1970 | remain | popular,the | beatles | ' | songs | ( | 1962-1970 | ) | remain | popular | .,False
+"New York-based firms hired 1,200 workers.","new | york | based | firms | hired | 1,200 | workers","new | york-based | firms | hired | 1,200 | workers | .",False
+"Pokémon is a café's favorite game, isn't it?",pokémon | is | a | café | 's | favorite | game | is | n't | it,"pokémon | is | a | café | 's | favorite | game | , | is | n't | it | ?",False
