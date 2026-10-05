@@ -1,0 +1,9 @@
+modelo,accuracy val,precision val,recall val,f1 val,parámetros,entrenables,tiempo (s)
+TF-IDF + LogReg,92.56,92.54,92.56,92.54,1681800,1681800,13.3
+Aleatorios (entrenables),91.49,91.49,91.49,91.49,4279284,4279284,11.9
+SGNS congelado,88.58,88.65,88.58,88.57,4004184,26884,11.4
+SGNS fine-tuning,91.98,91.99,91.98,91.98,4004184,4004184,6.8
+Word2Vec gensim congelado,88.21,88.27,88.21,88.19,4004184,26884,9.9
+Word2Vec gensim fine-tuning,92.04,92.04,92.04,92.04,4004184,4004184,6.9
+GloVe congelado,90.69,90.74,90.69,90.68,5641984,26884,11.5
+GloVe fine-tuning,92.54,92.61,92.54,92.53,5641984,5641984,9.9

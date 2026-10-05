@@ -1,0 +1,6 @@
+,variante,accuracy,precision,recall,f1
+TF-IDF,TF-IDF + LogReg,92.22,92.21,92.22,92.21
+Aleatorios,Aleatorios (entrenables),90.76,90.75,90.76,90.75
+SGNS,SGNS fine-tuning,91.45,91.44,91.45,91.44
+Word2Vec gensim,Word2Vec gensim fine-tuning,91.54,91.54,91.54,91.54
+GloVe,GloVe fine-tuning,92.01,92.06,92.01,92.01
