@@ -1,0 +1,19 @@
+analogía,esperado,SGNS (propio),SGNS (propio) · 1.º es,Word2Vec gensim,Word2Vec gensim · 1.º es,GloVe,GloVe · 1.º es
+man:king :: woman:?,queen,"king (0.80), coronation (0.69), throne (0.69)",b,"king (0.81), amalia (0.74), electress (0.74)",b,"king (0.84), queen (0.77), monarch (0.68)",b
+brother:sister :: son:?,daughter,"sister (0.85), daughter (0.82), son (0.74)",b,"sister (0.87), daughter (0.82), wife (0.76)",b,"sister (0.94), daughter (0.89), mother (0.85)",b
+actor:actress :: he:?,she,"he (0.87), she (0.79), her (0.70)",c,"he (0.88), she (0.77), unhappily (0.72)",c,"she (0.91), he (0.87), her (0.79)",esperado
+france:paris :: italy:?,rome,"paris (0.86), prague (0.77), italy (0.75)",b,"paris (0.86), vienna (0.76), prague (0.75)",b,"rome (0.82), italy (0.75), milan (0.74)",esperado
+japan:tokyo :: germany:?,berlin,"berlin (0.75), germany (0.73), bonn (0.72)",esperado,"berlin (0.76), stuttgart (0.75), germany (0.74)",esperado,"frankfurt (0.84), berlin (0.82), germany (0.76)",otra
+spain:madrid :: russia:?,moscow,"madrid (0.66), russia (0.65), moscow (0.64)",b,"madrid (0.68), moscow (0.67), russia (0.66)",b,"moscow (0.86), kiev (0.74), russia (0.72)",esperado
+france:french :: germany:?,german,"german (0.87), austrian (0.78), dutch (0.77)",esperado,"german (0.89), french (0.78), dutch (0.77)",esperado,"german (0.96), germany (0.80), austrian (0.78)",esperado
+china:chinese :: mexico:?,mexican,"mexican (0.81), mexico (0.75), texas (0.66)",esperado,"mexican (0.82), mexico (0.72), spanish (0.66)",esperado,"mexican (0.91), mexico (0.84), puerto (0.75)",esperado
+italy:italian :: japan:?,japanese,"japanese (0.82), japan (0.73), nogaps (0.63)",esperado,"japanese (0.81), japan (0.72), tokyo (0.65)",esperado,"japanese (0.93), japan (0.77), korean (0.73)",esperado
+good:better :: bad:?,worse,"better (0.83), bigger (0.73), worse (0.70)",b,"better (0.82), bad (0.72), worse (0.71)",b,"bad (0.90), worse (0.84), better (0.78)",c
+big:bigger :: small:?,smaller,"small (0.74), smaller (0.70), larger (0.68)",c,"small (0.71), larger (0.68), smaller (0.67)",c,"larger (0.89), smaller (0.87), small (0.82)",otra
+strong:strongest :: large:?,largest,"large (0.75), largest (0.67), strongest (0.65)",c,"large (0.73), strongest (0.64), largest (0.64)",c,"large (0.75), smallest (0.69), larger (0.68)",c
+walk:walked :: go:?,went,"go (0.76), walked (0.73), going (0.68)",c,"walked (0.76), go (0.75), put (0.68)",b,"went (0.84), came (0.79), out (0.79)",esperado
+take:took :: see:?,saw,"saw (0.78), see (0.72), witnessed (0.68)",esperado,"saw (0.79), see (0.71), recalled (0.67)",esperado,"saw (0.85), came (0.80), took (0.78)",esperado
+play:playing :: write:?,writing,"write (0.83), writing (0.72), composing (0.72)",c,"write (0.83), writing (0.76), rewriting (0.71)",c,"write (0.87), writing (0.75), wrote (0.64)",c
+car:cars :: child:?,children,"child (0.80), children (0.74), mothers (0.66)",c,"child (0.81), children (0.80), mothers (0.68)",c,"child (0.84), children (0.82), mothers (0.72)",c
+city:cities :: mouse:?,mice,"mouse (0.83), goofy (0.56), rodents (0.54)",c,"mouse (0.84), rodents (0.55), skink (0.55)",c,"mouse (0.83), mice (0.67), viruses (0.61)",c
+dog:dogs :: man:?,men,"man (0.81), men (0.66), savages (0.60)",c,"man (0.81), men (0.67), thirst (0.61)",c,"man (0.84), men (0.76), they (0.74)",c

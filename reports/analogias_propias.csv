@@ -1,0 +1,55 @@
+tipo,analogía,esperado,modelo,top-5,rango,"cos(esperado, q)"
+género,man:king :: woman:?,queen,SGNS (propio),"coronation (0.69), throne (0.69), regnant (0.69), queen (0.67), electress (0.67)",4,0.667
+género,man:king :: woman:?,queen,Word2Vec gensim,"amalia (0.74), electress (0.74), regnant (0.73), throne (0.73), archduchess (0.72)",7,0.712
+género,man:king :: woman:?,queen,GloVe,"queen (0.77), monarch (0.68), throne (0.68), daughter (0.66), princess (0.65)",1,0.77
+género,brother:sister :: son:?,daughter,SGNS (propio),"daughter (0.82), mother (0.73), wife (0.72), daughters (0.72), grandchild (0.71)",1,0.821
+género,brother:sister :: son:?,daughter,Word2Vec gensim,"daughter (0.82), wife (0.76), daughters (0.74), mother (0.74), widowed (0.74)",1,0.823
+género,brother:sister :: son:?,daughter,GloVe,"daughter (0.89), mother (0.85), wife (0.81), niece (0.78), daughters (0.78)",1,0.895
+género,actor:actress :: he:?,she,SGNS (propio),"she (0.79), her (0.70), his (0.68), having (0.68), overworked (0.67)",1,0.787
+género,actor:actress :: he:?,she,Word2Vec gensim,"she (0.77), unhappily (0.72), midwife (0.72), fitzgeralds (0.71), persevered (0.71)",1,0.774
+género,actor:actress :: he:?,she,GloVe,"she (0.91), her (0.79), was (0.76), had (0.76), never (0.76)",1,0.905
+país–capital,france:paris :: italy:?,rome,SGNS (propio),"prague (0.77), vienna (0.75), berlin (0.74), cologne (0.73), aix (0.73)",74,0.639
+país–capital,france:paris :: italy:?,rome,Word2Vec gensim,"vienna (0.76), prague (0.75), berlin (0.74), teatro (0.73), bologna (0.73)",54,0.643
+país–capital,france:paris :: italy:?,rome,GloVe,"rome (0.82), milan (0.74), naples (0.71), venice (0.70), turin (0.70)",1,0.819
+país–capital,japan:tokyo :: germany:?,berlin,SGNS (propio),"berlin (0.75), bonn (0.72), nuremberg (0.71), stuttgart (0.70), prague (0.70)",1,0.751
+país–capital,japan:tokyo :: germany:?,berlin,Word2Vec gensim,"berlin (0.76), stuttgart (0.75), munich (0.73), prague (0.71), nuremberg (0.69)",1,0.759
+país–capital,japan:tokyo :: germany:?,berlin,GloVe,"frankfurt (0.84), berlin (0.82), munich (0.73), paris (0.71), vienna (0.69)",2,0.819
+país–capital,spain:madrid :: russia:?,moscow,SGNS (propio),"moscow (0.64), belgrade (0.60), bucharest (0.60), ukraine (0.60), warsaw (0.59)",1,0.639
+país–capital,spain:madrid :: russia:?,moscow,Word2Vec gensim,"moscow (0.67), berlin (0.61), warsaw (0.61), viktoria (0.61), spartak (0.60)",1,0.672
+país–capital,spain:madrid :: russia:?,moscow,GloVe,"moscow (0.86), kiev (0.74), kremlin (0.67), tehran (0.66), russian (0.66)",1,0.855
+país–gentilicio,france:french :: germany:?,german,SGNS (propio),"german (0.87), austrian (0.78), dutch (0.77), russian (0.73), polish (0.71)",1,0.87
+país–gentilicio,france:french :: germany:?,german,Word2Vec gensim,"german (0.89), dutch (0.77), austrian (0.76), russian (0.75), british (0.72)",1,0.886
+país–gentilicio,france:french :: germany:?,german,GloVe,"german (0.96), austrian (0.78), swiss (0.77), swedish (0.73), polish (0.73)",1,0.96
+país–gentilicio,china:chinese :: mexico:?,mexican,SGNS (propio),"mexican (0.81), texas (0.66), spanish (0.66), tejas (0.65), mexicans (0.64)",1,0.813
+país–gentilicio,china:chinese :: mexico:?,mexican,Word2Vec gensim,"mexican (0.82), spanish (0.66), texas (0.65), tejas (0.64), american (0.62)",1,0.821
+país–gentilicio,china:chinese :: mexico:?,mexican,GloVe,"mexican (0.91), puerto (0.75), spanish (0.73), brazilian (0.71), cuban (0.70)",1,0.911
+país–gentilicio,italy:italian :: japan:?,japanese,SGNS (propio),"japanese (0.82), nogaps (0.63), asahi (0.63), tokyo (0.63), ise (0.62)",1,0.82
+país–gentilicio,italy:italian :: japan:?,japanese,Word2Vec gensim,"japanese (0.81), tokyo (0.65), asahi (0.64), chinese (0.62), korean (0.61)",1,0.807
+país–gentilicio,italy:italian :: japan:?,japanese,GloVe,"japanese (0.93), korean (0.73), chinese (0.68), tokyo (0.65), taiwanese (0.64)",1,0.928
+comparativo/superl.,good:better :: bad:?,worse,SGNS (propio),"bigger (0.73), worse (0.70), n't (0.67), smarter (0.65), harder (0.65)",2,0.705
+comparativo/superl.,good:better :: bad:?,worse,Word2Vec gensim,"worse (0.71), bigger (0.67), smarter (0.66), funnier (0.64), wiser (0.64)",1,0.711
+comparativo/superl.,good:better :: bad:?,worse,GloVe,"worse (0.84), too (0.75), even (0.73), getting (0.73), because (0.73)",1,0.844
+comparativo/superl.,big:bigger :: small:?,smaller,SGNS (propio),"smaller (0.70), larger (0.68), large (0.67), sized (0.60), tiny (0.60)",1,0.696
+comparativo/superl.,big:bigger :: small:?,smaller,Word2Vec gensim,"larger (0.68), smaller (0.67), large (0.64), comparably (0.58), tiny (0.57)",2,0.671
+comparativo/superl.,big:bigger :: small:?,smaller,GloVe,"larger (0.89), smaller (0.87), large (0.79), tiny (0.71), size (0.66)",2,0.869
+comparativo/superl.,strong:strongest :: large:?,largest,SGNS (propio),"largest (0.67), larger (0.64), small (0.64), smaller (0.63), smallest (0.61)",1,0.667
+comparativo/superl.,strong:strongest :: large:?,largest,Word2Vec gensim,"largest (0.64), small (0.63), smallest (0.62), smaller (0.60), harappan (0.58)",1,0.64
+comparativo/superl.,strong:strongest :: large:?,largest,GloVe,"smallest (0.69), larger (0.68), largest (0.67), small (0.66), smaller (0.63)",3,0.67
+tiempo verbal,walk:walked :: go:?,went,SGNS (propio),"going (0.68), went (0.68), put (0.66), got (0.65), phoned (0.65)",2,0.68
+tiempo verbal,walk:walked :: go:?,went,Word2Vec gensim,"put (0.68), went (0.67), going (0.67), got (0.67), woke (0.66)",2,0.674
+tiempo verbal,walk:walked :: go:?,went,GloVe,"went (0.84), came (0.79), out (0.79), got (0.77), gone (0.76)",1,0.837
+tiempo verbal,take:took :: see:?,saw,SGNS (propio),"saw (0.78), witnessed (0.68), came (0.68), recalled (0.67), happened (0.64)",1,0.778
+tiempo verbal,take:took :: see:?,saw,Word2Vec gensim,"saw (0.79), recalled (0.67), witnessed (0.66), came (0.64), happened (0.63)",1,0.785
+tiempo verbal,take:took :: see:?,saw,GloVe,"saw (0.85), came (0.80), when (0.78), turned (0.77), seen (0.74)",1,0.852
+tiempo verbal,play:playing :: write:?,writing,SGNS (propio),"writing (0.72), composing (0.72), margulies (0.70), brainstorm (0.69), conceptualizing (0.69)",1,0.725
+tiempo verbal,play:playing :: write:?,writing,Word2Vec gensim,"writing (0.76), rewriting (0.71), composing (0.70), intrigued (0.70), rewrote (0.70)",1,0.761
+tiempo verbal,play:playing :: write:?,writing,GloVe,"writing (0.75), wrote (0.64), notes (0.63), books (0.63), writes (0.63)",1,0.753
+plural,car:cars :: child:?,children,SGNS (propio),"children (0.74), mothers (0.66), girls (0.65), siblings (0.64), unwed (0.62)",1,0.74
+plural,car:cars :: child:?,children,Word2Vec gensim,"children (0.80), mothers (0.68), babies (0.67), parents (0.66), girls (0.65)",1,0.795
+plural,car:cars :: child:?,children,GloVe,"children (0.82), mothers (0.72), parents (0.69), babies (0.68), sex (0.67)",1,0.824
+plural,city:cities :: mouse:?,mice,SGNS (propio),"goofy (0.56), rodents (0.54), microcebus (0.52), monkey (0.52), mus (0.52)",331,0.441
+plural,city:cities :: mouse:?,mice,Word2Vec gensim,"rodents (0.55), skink (0.55), amphibians (0.55), sabreman (0.54), cuttlefish (0.54)",391,0.457
+plural,city:cities :: mouse:?,mice,GloVe,"mice (0.67), viruses (0.61), genes (0.58), rodents (0.56), rabbit (0.56)",1,0.666
+plural,dog:dogs :: man:?,men,SGNS (propio),"men (0.66), savages (0.60), woman (0.59), cunning (0.59), emaciated (0.58)",1,0.657
+plural,dog:dogs :: man:?,men,Word2Vec gensim,"men (0.67), thirst (0.61), youngsters (0.59), woman (0.59), savages (0.58)",1,0.671
+plural,dog:dogs :: man:?,men,GloVe,"men (0.76), they (0.74), others (0.73), being (0.72), who (0.71)",1,0.762

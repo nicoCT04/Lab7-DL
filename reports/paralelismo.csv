@@ -1,0 +1,17 @@
+categoría,pares,SGNS (propio),Word2Vec gensim,GloVe
+capital-common-countries,22.0,0.3128,0.3166,0.5861
+capital-world,60.0,0.2229,0.2319,0.566
+currency,10.0,0.2045,0.1912,0.2604
+city-in-state,57.0,0.1917,0.2067,0.3386
+family,19.0,0.2673,0.278,0.5066
+gram1-adjective-to-adverb,28.0,0.1334,0.1297,0.2816
+gram2-opposite,18.0,0.0791,0.0827,0.2228
+gram3-comparative,35.0,0.3206,0.3247,0.4199
+gram4-superlative,27.0,0.2628,0.2666,0.4654
+gram5-present-participle,30.0,0.1502,0.1722,0.3185
+gram6-nationality-adjective,37.0,0.4543,0.4544,0.7491
+gram7-past-tense,37.0,0.1974,0.197,0.2888
+gram8-plural,32.0,0.143,0.1519,0.3218
+gram9-plural-verbs,28.0,0.23,0.2346,0.3566
+aleatorio (referencia),300.0,-0.0006,-0.0008,0.0001
+PROMEDIO (14 categorías),31.4286,0.2264,0.2313,0.4059
